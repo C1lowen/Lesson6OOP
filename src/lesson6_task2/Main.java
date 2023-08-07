@@ -23,7 +23,7 @@ public class Main {
         SumMassive[] sumMassives = new SumMassive[n];
         Thread[] threads = new Thread[n];
 
-        int elementOneStream = arr.length / 4;
+        int elementOneStream = arr.length / n;
 
         long start = System.currentTimeMillis();
 
